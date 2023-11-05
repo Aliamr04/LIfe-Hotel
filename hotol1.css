@@ -1,0 +1,165 @@
+body{
+    margin-top: 150px;
+    margin: 0;
+}
+*{
+    font-family: 'poppins', sans-serif;
+}
+h1{
+    font-weight: bold;
+    font-size: 50px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: middle;
+    align-items: center;
+}
+.div1-2{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 130vh;
+    line-height: 1px;
+    background-image: url(img/limak-eurasia-luxury.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+.img2{
+    transform: rotate(90deg);
+    height: 300px;
+    display: inline-block;
+}
+.div2{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+span{
+    color: #fb911f;
+}
+.div3,
+.div4,
+.div5,
+.div6{
+    padding: 100px 30px;
+    text-align: center;
+}
+.div-img-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 30px;
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+.div33{
+    margin-bottom: 50px;
+}
+.img-grid{
+    width: 350px;
+    height: 250px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 20px 20px;
+}
+.div7{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-height: 130vh;
+    line-height: 1px;
+    background-image: url(img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.img-grid1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 300px;
+}
+.i-chef{
+    padding: 60px 60px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+.foot{
+    text-align: center;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(187, 187, 187);
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    position: fixed;
+    background: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: 70px;
+    padding: 0 40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+a:hover{
+    color: #fb911f;
+    text-decoration: underline;
+}
+.right a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+}
+.right a:hover{
+    font-size: 40px;
+}
+.r{
+    background-color: #fb911f;
+    color: white;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.r:hover{
+    background-color: white;
+    color: #fb911f;
+}
